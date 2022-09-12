@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Todo App</title>
+    <link rel="stylesheet" href="cajas.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>Todo App</h1>
+
+            <div class="font">
+                <div class="input">
+                    <!-- Este nodo tiene id porque despues se va a usar en el script con js -->
+                    <input id="tareas" class="text" placeholder="Add your new todo"> <button id="botonMas"
+                        class="boton_mas">+</button>
+                </div>
+
+                <ul id="items" class="list"></ul>
+                <footer>
+                    <li class="text2">You have 0 pending tasks <button class="boton_clear">Clear All</button></li>
+                </footer>
+            </div>
+        </div>
+    </div>
+    <script src="practica.js"> </script>
+</body>
+
+</html>
