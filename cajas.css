@@ -1,0 +1,131 @@
+* {
+    overflow: hidden;
+}
+
+.container {
+    background-image: url(fondo.jpg);
+    display: flex;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    height: 570px;
+}
+
+.card {
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    border-radius: 8px;
+    border: solid black 5px;
+    width: 350px;
+    height: 450px;
+}
+
+.font {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    margin: auto;
+}
+
+.text {
+    width: 245px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+.margen {
+    background-color: lightgrey;
+    width: 285px;
+    height: 35px;
+    padding-left: 10px;
+    padding-top: 10px;
+    display: inline-block;
+    text-align: left;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    left: 20vh;
+}
+
+.boton_mas {
+    background-color: rgb(104, 52, 201);
+    color: white;
+    border-radius: 3px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+    height: 36px;
+    width: 35px;
+}
+
+.input {
+    display: flex;
+
+}
+
+.boton_b {
+    background-color: orangered;
+    color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+    /*height: 45px;
+    width: 34px; */
+}
+
+.text2 {
+    background-color: red;
+    width: 285px;
+    height: 35px;
+    display: inline-block;
+    text-align: left;
+    justify-content: center;
+}
+
+.boton_clear {
+    background-color: rgb(104, 52, 201);
+    color: white;
+    border-radius: 3px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-top: 10px;
+    display: inline-block;
+}
+
+/*.button3 {
+    background-color: rgb(104, 52, 201);
+    color: white;
+    padding: 3px 6px;
+    border-radius: 3px;
+    
+}*/
+
+
+
+
+
+
+
+/*.font {
+    font-family: Arial, Helvetica, sans-serif;
+}*/
+
+/*.margen {
+    background-color: lightgrey;
+    /*width: 150px;
+    padding: 10px;
+    margin: 15px;    
+}*/
