@@ -40,7 +40,7 @@
 .margen {
     background-color: lightgrey;
     width: 285px;
-    height: 35px;
+    /*height: 35px;*/
     padding-left: 10px;
     padding-top: 10px;
     display: inline-block;
@@ -53,6 +53,8 @@
     list-style: none;
     padding: 0;
     left: 20vh;
+    height: 210px;
+    overflow-y: scroll;
 }
 
 .boton_mas {
@@ -66,6 +68,20 @@
     height: 36px;
     width: 35px;
 }
+
+.boton_clear {
+    background-color: rgb(104, 52, 201);
+    color: white;
+    border-radius: 3px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-top: 10px;
+    /*display: inline-block;*/
+}
+
 
 .input {
     display: flex;
@@ -84,26 +100,14 @@
 }
 
 .text2 {
-    background-color: red;
+    /*background-color: red;*/
     width: 285px;
     height: 35px;
     display: inline-block;
-    text-align: left;
+    text-align: center;
     justify-content: center;
 }
 
-.boton_clear {
-    background-color: rgb(104, 52, 201);
-    color: white;
-    border-radius: 3px;
-    border: none;
-    text-align: center;
-    text-decoration: none;
-    font-size: 15px;
-    padding-left: 10px;
-    padding-top: 10px;
-    display: inline-block;
-}
 
 /*.button3 {
     background-color: rgb(104, 52, 201);
